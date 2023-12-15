@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>number reconition by adrien laplace</title>
+        <link rel="stylesheet" href="styles/styles.css" />
+        <link rel="shortcut icon" href="favicon.ico">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Number Recognition</h1>
+        </div>
+        <div class="first_para">
+            <p>Drawn a number on the canvas, the machine learning algorithm will try to recognized what you wrote  </p>
+        </div>
+        <div class="content">
+            <div class="left-column">
+                <canvas id="myCanvas" width="280" height="280"></canvas>
+                <button class="button" onclick="clearCanvas()">Clear Canvas</button>
+                <button class= "button" onclick="image_process()">Recognized</button>
+                <script src="scripts/index.js"></script>
+            </div>
+            <div class="right-column">
+              <p>This is the text in the right column.</p>
+              <div>
+                    <h1 id="serverResponse"></h1>
+              </div>
+
+            </div>
+    </body>
+</html>
